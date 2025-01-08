@@ -47,7 +47,7 @@
           {{ if .Params.showFullContent }}
             {{ .Content }}
           {{ else if .Description }}
-            <p>{{ .Description | markdownify }}</p>
+            <p><b class="description-title">{{ .Title | markdownify }}</b>: {{ .Description | markdownify }}</p>
           {{ else }}
             {{ .Summary }}
           {{ end }}

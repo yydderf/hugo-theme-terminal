@@ -41,7 +41,21 @@
   margin: 0 8px;
 }
 
+@font-face {
+  font-family: "a-another-tag";
+  src: url('/fonts/aAnotherTag.ttf') format('truetype'),
+       url('/fonts/aAnotherTag.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'streetbomber';
+  src: url('/fonts/Streetbomber.ttf') format('truetype'),
+       url('/fonts/Streetbomber.woff') format('woff');
+}
+
 .post-title {
+  font-family: 'a-another-tag';
+  font-size: 2.5rem;
   position: relative;
   color: var(--accent);
   margin-top: 0 !important;
@@ -67,7 +81,7 @@
 .post-tags {
   display: block;
   margin-bottom: 20px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--accent);
 }
 
@@ -77,6 +91,10 @@
 
 .post-content {
   margin-top: 30px;
+}
+
+b.description-title {
+  text-decoration: underline;
 }
 
 .post-cover {
