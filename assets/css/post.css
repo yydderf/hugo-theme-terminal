@@ -157,3 +157,11 @@ h6:hover .hanchor {
     border-width: 10px;
   }
 }
+
+.medium-zoom-overlay {
+  overflow: hidden;
+}
+
+.medium-zoom-image--opened {
+  object-fit: contain;
+}
