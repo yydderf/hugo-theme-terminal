@@ -17,3 +17,24 @@
   font-feature-settings: "liga", "tnum", "ss01", "locl";
   font-variant-ligatures: contextual;
 }
+
+@font-face {
+  font-display: swap;
+  font-family: "a-another-tag";
+  src: url('/fonts/aAnotherTag.ttf') format('truetype'),
+       url('/fonts/aAnotherTag.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'streetbomber';
+  src: url('/fonts/Streetbomber.ttf') format('truetype'),
+       url('/fonts/Streetbomber.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'bombing';
+  src: url('/fonts/Bombing.ttf') format('truetype'),
+       url('/fonts/Bombing.woff') format('woff');
+}

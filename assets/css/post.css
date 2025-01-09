@@ -41,18 +41,6 @@
   margin: 0 8px;
 }
 
-@font-face {
-  font-family: "a-another-tag";
-  src: url('/fonts/aAnotherTag.ttf') format('truetype'),
-       url('/fonts/aAnotherTag.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'streetbomber';
-  src: url('/fonts/Streetbomber.ttf') format('truetype'),
-       url('/fonts/Streetbomber.woff') format('woff');
-}
-
 .post-title {
   font-family: 'a-another-tag';
   font-size: 2.5rem;
