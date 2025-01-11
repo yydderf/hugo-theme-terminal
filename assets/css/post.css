@@ -51,6 +51,10 @@
   padding-bottom: 15px;
   border-bottom: 3px dotted var(--accent);
   text-decoration: none !important;
+  word-spacing: 0.12em;
+  letter-spacing: 0.06em;
+  line-height: 1em;
+  /*line-height: 1.54em;*/
 }
 
 .post-title::after {
